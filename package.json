@@ -1,0 +1,18 @@
+{
+  "name": "desafio-teste-domino",
+  "version": "1.0.0",
+  "description": "Casos de teste em JavaScript (Jest) para o desafio: domino",
+  "main": "src/domino.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Emanuelly",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
